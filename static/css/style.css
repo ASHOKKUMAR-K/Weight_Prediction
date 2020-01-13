@@ -1,1 +1,50 @@
+body {
+  background: linear-gradient(-45deg, #f16f5c 0%, #3b34f7 0%, #3b34f7 0%, #16cbd7 78%, #0cf5ce 100%);
+  height: 100vh;
+  width: 100vw;
+}
 
+.content {
+  top: 50%;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+}
+
+.card {
+  max-width: 100%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.topic {
+  text-align: center;
+}
+
+input {
+  background-color: transparent;
+  border-radius: 0px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  -webkit-text-fill-color: #000;
+  -webkit-box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0) inset;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+}
+/*# sourceMappingURL=style.css.map */
